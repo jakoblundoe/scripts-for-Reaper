@@ -1,4 +1,4 @@
-## JL_Toggle-Mute-on-Items-if-same-else-mute
+## JL_Toggle-Mute-on-Items-if-same-else-Mute
 Custom Lua-script for Reaper || Toggle Mute on selected items if same, else mute selected items
 
 ## Description
