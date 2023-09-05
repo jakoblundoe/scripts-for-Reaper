@@ -78,3 +78,15 @@ Hope someone find these useful. :)
 <br>
 
 -------
+
+#### JL_create time selection between items
+-- This script creates a timeselection between to items in the arrange view.<br>
+-- It uses default Reaper action commands to achieve this behaviour.<br>
+-- The cursor needs to be placed between the two items where you want to create the time selection,<br>
+-- since the script uses the cursor to achieve the desired behaviour.<br>
+-- You can assign it to a mouse modifier of your choice. For example:<br>
+-- Preferences/Editing Behavior/Mouse Modifiers: Track | Double-Click | Default Action<br>
+<br>
+<br>
+
+-------
