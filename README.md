@@ -53,7 +53,7 @@ I hope you will find them useful.
 -------
 
 #### JL_read track height in pixels(utility)
--- Reads the height of a track in pixels and shows it in the reaper console.<br>
+-- Reads the height of a track in pixels and displays it in the reaper console.<br>
 -- If several tracks is selected it shows and error message and do not get called.<br>
 <br>
 <br>
@@ -86,6 +86,30 @@ I hope you will find them useful.
 -- since the script uses the cursor to achieve the desired behaviour.<br>
 -- You can assign it to a mouse modifier of your choice. For example:<br>
 -- Preferences/Editing Behavior/Mouse Modifiers: Track | Double-Click | Default Action<br>
+<br>
+<br>
+
+-------
+
+#### JL_toggle envelope height on selected envelope lane
+-- This script requires the SWS extension installed.<br>
+<br>
+-- Script functionality:<br>
+-- Toggles between two different heights for the selected envelope.<br>
+-- It reads the individual selected envelope height and toggles to the other one.<br>
+-- If height does not match neither of the configurated envelope heights the bool default_envelope_a determines if set to a(true) or b(false).<br>
+<br>
+-- thanks to Edgemeal for posting code snippets of reaper.BR_EnvAlloc on the Cockos forum
+###### User Config<br>
+-- Set Track Height A in pixels(default)<br>
+-- Set Track Height B in pixels<br>
+-- Bool. Set to false if envelope should default to envelope_height_b instead of a.<br>
+<br>
+<br>
+
+-------
+#### JL_read envelope height in pixels(utility)
+-- Reads the height of a selected envelope in pixels and displays it in the reaper console.<br>
 <br>
 <br>
 
