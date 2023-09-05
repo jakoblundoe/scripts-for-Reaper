@@ -54,7 +54,7 @@ I hope you will find them useful.
 
 #### JL_read track height in pixels(utility)
 -- Reads the height of a track in pixels and displays it in the reaper console.<br>
--- If several tracks is selected it shows and error message and do not get called.<br>
+-- If several tracks is selected it displays an error message and do not get called.<br>
 <br>
 <br>
 
