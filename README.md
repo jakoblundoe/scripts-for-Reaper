@@ -69,3 +69,12 @@ Hope someone find these useful. :)
 <br>
 
 -------
+
+#### JL_toggle selected tracks between trimread and latch
+-- Toggles between trim/read and latch on selected tracks automation mode.<br>
+-- If latch mode is not selected it sets the individual selected tracks to latch mode.<br>
+-- If latch mode is selected it sets the individual selected tracks to trim/read mode.<br>
+<br>
+<br>
+
+-------
