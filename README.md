@@ -1,5 +1,8 @@
-### Scripts for Reaper
+# Scripts for Reaper
 Simple custom Lua-scripts for Reaper which is made based on my own workflow needs. Maybe others would find them useful so decided to share!
+
+## Table of content
+{:toc}
 
 ### Scripts
 
