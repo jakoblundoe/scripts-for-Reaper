@@ -61,6 +61,7 @@ I hope you will find them useful.
 -------
 
 #### JL_latch preview - write to selection and set to trimread mode
+-- Writes automation to selection (based on time selection) when toggling from latch preview to trim/read mode.
 -- Toggles between trim/read and latch preview on selected tracks automation mode.<br>
 -- If latch preview mode is not selected it sets all tracks to trim/read mode (to prevent mistakes) and then sets the selected track to latch preview.<br>
 -- If latch preview mode is selected it writes the changed values(changed during latch preview mode) to the track envelopes within the time selection,<br>
