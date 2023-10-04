@@ -1,9 +1,7 @@
 ### Scripts for Reaper
-Simple custom Lua-scripts for Reaper which is made based on my own workflow needs. This repo is made public to help others who seeks similar actions within Reaper. I will only update or change the scripts if my own needs change.
-I hope you will find them useful.
+Simple custom Lua-scripts for Reaper which is made based on my own workflow needs. Maybe others would find them useful so decided to share!
 
 ### Scripts
-
 
 #### JL_toggle mute on items if same else mute
 -- Toggle mute on selected media items with the following conditions:<br>
