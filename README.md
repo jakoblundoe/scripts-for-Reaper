@@ -1,5 +1,5 @@
 # Scripts for Reaper
-Simple custom Lua-scripts for Reaper which is made based on my own workflow needs. Maybe others will find them useful so decided to share!
+Simple custom Lua-scripts for Reaper which is made based on my own workflow needs. Maybe others will find them useful too!
 
 ### Scripts
 
