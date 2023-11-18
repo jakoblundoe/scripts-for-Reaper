@@ -3,6 +3,32 @@ Simple custom Lua-scripts for Reaper which is made based on my own workflow need
 
 ### Scripts
 
+#### JL_Create Resample Track
+-- Inserts a new track that acts as a resampling track for 'live resampling' purposes.<br>
+-- Audio input based on currently selected track(s).<br>
+-- If you are familiar with abletons 'resampling input option' it is similar, with the main difference.<br>
+-- being that you choose the specific tracks you wish to receive audio from.<br>
+###### User Config<br>
+-- Set Track Height A in pixels(default).<br>
+-- Set same track color. If several tracks selected the first selected track color is copied.<br>
+-- Set track recording state if selected track is used as a midi instrument (midi input needs to be enable). true = Record: disable (input monitoring only). false = Record: input(audio or MIDI).<br>
+<br>
+<br>
+
+-------
+#### JL_Create FX Track
+-- Inserts a new track that acts as an FX send. Audio input based on currently selected track(s).<br>
+###### User Config<br>
+-- Set Track Height A in pixels(default).<br>
+-- Set same track color. If several tracks selected the first selected track color is copied. If set to false a specified custom color will be used.
+-- Choose to place new FX track right below selected tracks or as last in tcp.
+<br>
+<br>
+
+-------
+
+
+
 #### JL_toggle mute on items if same else mute
 -- Toggle mute on selected media items with the following conditions:<br>
 -- If the selected media items are all muted, then unmute all the selected media items.<br>
