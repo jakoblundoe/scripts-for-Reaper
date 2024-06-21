@@ -20,7 +20,7 @@ Simple custom Lua-scripts for Reaper which is made based on my own workflow need
 -- Inserts a new track that acts as an FX send. Audio input based on currently selected track(s).<br>
 ###### User Config<br>
 -- Set Track Height A in pixels(default).<br>
--- Set same track color. If several tracks selected the first selected track color is copied. If set to false a specified custom color will be used.
+-- Set same track color. If several tracks selected the first selected track color is copied. If set to false a specified custom color will be used.<br>
 -- Choose to place new FX track right below selected tracks or as last in tcp.
 <br>
 <br>
