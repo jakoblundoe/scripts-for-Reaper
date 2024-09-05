@@ -39,8 +39,13 @@ end
 
 function GetSetEnvelopeHeight()
     envelopeID =  reaper.GetSelectedEnvelope(0)
-    currentEnvHeight = reaper.GetEnvelopeInfo_Value(envelopeID, "I_TCPH")
+
+    if (not envelopeID) then
+    printMsgBox("No envelope is selected. Action cannot be called.", "Envelope Height Toggle Failed")
+    return end
     
+    currentEnvHeight = reaper.GetEnvelopeInfo_Value(envelopeID, "I_TCPH")
+  
     if (currentEnvHeight == envelope_height_b) then
         SetEnvHeightA()
     elseif (currentEnvHeight == envelope_height_a) then
@@ -50,6 +55,10 @@ function GetSetEnvelopeHeight()
     else
         SetEnvHeightB()
     end
+end
+
+function printMsgBox (msg, title)
+    reaper.ShowMessageBox(msg, title, 0)
 end
 
 -- execute functions
