@@ -23,14 +23,14 @@ Inserts a new track that acts as an FX send. Audio input based on currently sele
 <br>
 
 -------
-
-
-
 #### JL_toggle mute on items if same else mute
 Toggle mute on selected media items with the following conditions: <br>
 If the selected media items are all muted, then unmute all the selected media items.<br>
 If the selected media items are all unmuted, then mute all the selected media items.<br>
 If the selected media items are both muted and unmuted (they differ), then mute all the selected media items.<br>
+<br>
+![toggle mute gif](/gifs/JL_toggle%20mute%20on%20items%20if%20same%20else%20mute.gif)
+<br>
 ###### User Config<br>
 -- Bool. Set to true if item should unmute(instead of mute) if the selected item mute states don't match.
 <br>
