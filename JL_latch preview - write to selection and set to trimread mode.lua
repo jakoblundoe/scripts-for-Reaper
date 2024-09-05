@@ -28,7 +28,6 @@ end
 
 function SetTrackAutomationState()
     if (track_automationMode ~= 5.0) then
-
         -- Reaper action || Automation: Set all tracks automation mode to trim/read
         reaper.Main_OnCommand(40088, 0)
         reaper.SetMediaTrackInfo_Value(trackNumber, "I_AUTOMODE", 5.0)
