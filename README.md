@@ -4,7 +4,10 @@ Simple custom Lua-scripts for Reaper which is made based on my own workflow need
 ## Scripts
 
 #### JL_Create Resample Track
-Inserts a new track that acts as a resampling track for 'live resampling' purposes. Audio input is based on currently selected track(s). If you are familiar with abletons 'resampling input option' it is similar, with the main difference being that you choose the specific tracks you wish to receive audio from.
+Inserts a new track that acts as a resampling track for 'live resampling' purposes. Audio input is based on currently selected track(s). If you are familiar with Abletons 'resampling input option' it is similar, with the main difference being that you choose the specific tracks you wish to receive audio from.
+<br>
+![create resample track gif](/gifs/JL_Create%20Resample%20Track.gif)
+<br>
 ###### User Config<br>
 -- Set Track Height A in pixels(default).<br>
 -- Set same track color. If several tracks selected the first selected track color is copied.<br>
