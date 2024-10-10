@@ -7,7 +7,7 @@
 
 -- Define name of FX to toggle on/off.
 -- MUST be an exact match (except for upper and lower case letters).
-local targetFxName = ""
+local targetFxName = "sonobus-mon"
 
 -- Boolean to determine if reaper should default to on or off on, when action is called
 -- the first time.
@@ -32,11 +32,9 @@ for i = 0, monFxCount do
             if calledFirstTime == "" then
                 reaper.SetExtState("toggleMonitorFxScript", "calledFirstTime", "true", false)
                 if resetToOff then
-                    reaper.ShowConsoleMsg("\n reset to off met")
                     reaper.TrackFX_SetEnabled(mastTrack, monOffset+i, false)
                     reaper.SetToggleCommandState(sectionID, cmdID, 0)
                 else
-                    reaper.ShowConsoleMsg("\n reset to off NOT met")
                     reaper.TrackFX_SetEnabled(mastTrack, monOffset+i, true)
                     reaper.SetToggleCommandState(sectionID, cmdID, 1)
                 end
