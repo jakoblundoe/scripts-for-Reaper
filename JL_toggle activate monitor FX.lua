@@ -7,7 +7,7 @@
 
 -- Define name of FX to toggle on/off.
 -- MUST be an exact match (except for upper and lower case letters).
-local targetFxName = "sonobus"
+local targetFxName = ""
 
 -- Boolean to determine if reaper should default to on or off on, when action is called
 -- the first time.
