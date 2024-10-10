@@ -1,10 +1,8 @@
--- This script requires the SWS extension installed.
-
 -- Script functionality:
--- Toggle activate sonobus plugin on monitoring fx chain
--- If sonobus vst is active = deactivate it
--- If sonobus vst is deactivated - activate it
-
+-- Toggle activate individually targeted FX plugin on monitoring fx chain
+-- Action to deactivate individually targeted FX on the monitor FX chain.
+-- Use it together with the 'JL_toggle activate monitor FX' to reset the state to
+-- default (off) when booting Reaper (put it in the global startup actions).
 
 -- USER CONFIG AREA -----------------------------------------------------------
 

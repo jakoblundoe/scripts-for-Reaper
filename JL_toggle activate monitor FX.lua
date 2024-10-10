@@ -1,10 +1,7 @@
--- This script requires the SWS extension installed.
-
 -- Script functionality:
--- Toggle activate sonobus plugin on monitoring fx chain
--- If sonobus vst is active = deactivate it
--- If sonobus vst is deactivated - activate it
-
+-- Deactivate individually targeted FX plugin on monitoring fx chain
+-- If FX is active = deactivate it
+-- If FX vst is deactivated - activate it
 
 -- USER CONFIG AREA -----------------------------------------------------------
 
