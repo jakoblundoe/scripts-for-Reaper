@@ -24,12 +24,23 @@ for i = 0, monFxCount do
     if retval then
         individualFxName = individualFxName:lower();
         if individualFxName == monitorPlugin then
+
             local fxIsEnabled = reaper.TrackFX_GetEnabled(mastTrack, monOffset+i)
+            is_new_value,filename,sectionID,cmdID,mode,resolution,val,contextstr = reaper.get_action_context()
+            local retval = reaper.GetToggleCommandState(cmdID)
+
+            if (retval == -1) then
+                reaper.SetToggleCommandState(sectionID, cmdID, 0)
+            end
+
             if fxIsEnabled then
                 reaper.TrackFX_SetEnabled(mastTrack, monOffset+i, false)
+                reaper.SetToggleCommandState(sectionID, cmdID, 0)
             else
                 reaper.TrackFX_SetEnabled(mastTrack, monOffset+i, true)
+                reaper.SetToggleCommandState(sectionID, cmdID, 1)
             end
+            
         end
     end
 end
