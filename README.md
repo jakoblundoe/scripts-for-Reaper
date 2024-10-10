@@ -3,6 +3,20 @@ Simple custom Lua-scripts for Reaper which is made based on my own workflow need
 
 ## Scripts
 
+#### JL_toggle activate monitor FX
+Toggle activate/deactivate individually targeted FX on the monitor FX chain. Useful if you have a setup with special routings or use a plugin like the SonoBus plugin to monitor on different devices.<br>
+<br>
+![toggle activate monitor FX gif](/gifs/JL_toggle%activate%monitor%FX.gif)
+<br>
+###### User Config<br>
+-- Define name of FX to toggle on/off.<br>
+-- MUST be an exact match (except for upper and lower case letters)..<br>
+<br>
+<br>
+
+#### JL_deactive monitor FX
+Action to deactivate individually targeted FX on the monitor FX chain. Use it together with the 'JL_toggle activate monitor FX' to reset the state to default (off) when booting Reaper.
+
 #### JL_Create Resample Track
 Inserts a new track that acts as a resampling track for 'live resampling' purposes. Audio input is based on currently selected track(s). If you are familiar with Abletons 'resampling input option' it is similar, with the main difference being that you choose the specific tracks you wish to receive audio from.<br>
 <br>
