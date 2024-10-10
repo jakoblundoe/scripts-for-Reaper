@@ -6,7 +6,7 @@ Simple custom Lua-scripts for Reaper which is made based on my own workflow need
 #### JL_toggle activate monitor FX
 Toggle activate/deactivate individually targeted FX on the monitor FX chain. Useful if you have a setup with special routings or use a plugin like the SonoBus plugin to monitor on different devices.<br>
 <br>
-![toggle activate monitor FX gif](/gifs/JL_toggle%activate%monitor%FX.gif)
+![toggle activate monitor FX gif](/gifs/JL_toggle-activate-monitor-fx.gif)
 <br>
 ###### User Config<br>
 -- Define name of FX to toggle on/off.<br>
